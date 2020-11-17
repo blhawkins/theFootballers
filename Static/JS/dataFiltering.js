@@ -3,6 +3,11 @@ function initializeTable() {
     d3.json("../Data/scraped_data.json", function(data) {
         //Table creation
         var playerData = data[0]['players_data'];
+        playerData.age = +playerData.age
+        playerData.overall_rating = +playerData.overall_rating
+        playerData.potential_rating = +playerData.potential_rating
+        playerData.value_in_millions_of_euros = +playerData.value_in_millions_of_euros
+        playerData.wage_in_thousands_of_euros_per_week = +playerData.wage_in_thousands_of_euros_per_week
         playerData.forEach(tablePopulationFun)
     });
 };
@@ -69,6 +74,11 @@ function playerFiltering() {
     d3.json("../Data/scraped_data.json", function(data) {
         //Table creation
         var playerData = data[0]['players_data'];
+        playerData.age = +playerData.age
+        playerData.overall_rating = +playerData.overall_rating
+        playerData.potential_rating = +playerData.potential_rating
+        playerData.value_in_millions_of_euros = +playerData.value_in_millions_of_euros
+        playerData.wage_in_thousands_of_euros_per_week = +playerData.wage_in_thousands_of_euros_per_week
         // Prevent Page Refresh
         //d3.event.preventDefault(); //WHY IS THIS NOT WORKING??
         // Remove Table Body
