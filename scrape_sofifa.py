@@ -8,7 +8,7 @@ def init_browser():
     return Browser("chrome", **executable_path, headless=True)
 
 #Define a function that scrapes the SoFIFA website
-def scrape_sofifa():
+def scrape():
 
     #Define a dictionary called scraped_data that will be returned by the function
     scraped_data = {}
