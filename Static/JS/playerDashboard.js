@@ -3,6 +3,7 @@
 //----------Function: Initialization of Webpage----------
 //-------------------------------------------------------
 
+//This function runs when the page first loads and populates the dropdown menu and initializes the graphics
 window.onload = function playerListFun() {
     //Select the 'Select dataset' dropdown
     var playerDropDown = d3.select('#selDataset');
@@ -18,22 +19,10 @@ window.onload = function playerListFun() {
     createGraphicsFun(0)
 }
 
-//This function runs when the page first loads and populates the dropdown menu and initializes the graphics (https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload)
-// window.onload = function patientListFun() {
-//     //Select the 'Select dataset' dropdown
-//     var patientDropDown = d3.select('#selDataset');
-//     //Append a dropdown element for each patient; It also assigns the cooresponding index value to the element's 'value' tag
-//     d3.json('Data/samples.json').then((importedData) => {
-//         importedData['names'].forEach((element, index) => {
-//                 var patient = patientDropDown.append('option');
-//                 patient.text(`Patient ${element}`);
-//                 patient.property('value', index);
-//         });
-//     });
-//     //Initialize the webpage's graphics with a random patient
-//     createGraphicsFun(Math.floor(Math.random() * 152));
-// };
+//----------Function: Creation of Visualizations----------
+//--------------------------------------------------------
 
+//This function creates the graphics shown on the webpage
 function createGraphicsFun(index) {
     d3.json('../Data/scraped_data.json').then((importedData) => {
         var playerData = importedData[0]['players_data'][index]
@@ -66,7 +55,7 @@ function createGraphicsFun(index) {
             moreInfoLink.text(`More Information`);
             moreInfoLink.property('href', `${playerData['url_extension']}`);
         
-        //-----Overall Rating Gauge Chart
+        //----------Overall Rating Gauge Chart----------
         var overallGaugeData = [
             {
                 domain: {x: [0, 1], y: [0, 1]},
@@ -103,7 +92,7 @@ function createGraphicsFun(index) {
         //Create the figure at the 'overall-gauge' tag
         Plotly.newPlot('overall-gauge', overallGaugeData, overallGaugeLayout);
 
-        //-----Potential Rating Gauge Chart
+        //----------Potential Rating Gauge Chart----------
         var potentialGaugeData = [
             {
                 domain: {x: [0, 1], y: [0, 1]},
@@ -140,7 +129,7 @@ function createGraphicsFun(index) {
         //Create the figure at the 'potential-gauge' tag
         Plotly.newPlot('potential-gauge', potentialGaugeData, potentialGaugeLayout);
 
-        //-----Player Value Gauge Chart
+        //----------Player Value Gauge Chart----------
         var valueGaugeData = [
             {
                 domain: {x: [0, 1], y: [0, 1]},
@@ -176,7 +165,7 @@ function createGraphicsFun(index) {
         };
         //Create the figure at the 'value-gauge' tag
         Plotly.newPlot('value-gauge', valueGaugeData, valueGaugeLayout);
-        //-----Player Wage Gauge Chart
+        //----------Player Wage Gauge Chart----------
         var wageGaugeData = [
             {
                 domain: {x: [0, 1], y: [0, 1]},
@@ -234,5 +223,5 @@ function updateGraphicsFun() {
 //----------Dataset Selection----------
 //-------------------------------------
 
-// Call updatePlotly() when a change takes place to the DOM
+// Call uupdateGraphicsFun() when a change takes place to the DOM
 d3.selectAll("#selDataset").on("change", updateGraphicsFun);
