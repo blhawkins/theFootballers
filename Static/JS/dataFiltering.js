@@ -1,7 +1,11 @@
 
 function initializeTable() {
     d3.json("../Data/scraped_data.json", function(data) {
+        
+        console.log(data)
+        
         //Table creation
+
         var playerData = data[0]['players_data'];
         playerData.age = +playerData.age
         playerData.overall_rating = +playerData.overall_rating
@@ -16,8 +20,9 @@ function tablePopulationFun(player) {
     var tbody = d3.select('tbody') //NOTE the data.html file must have this
     var row = tbody.append('tr')
     Object.entries(player).forEach(function([key, value]) {
+        var val = value.toUpperCase()
         var cell = row.append('td')
-        cell.text(value)
+        cell.text(val)
     });
 }
 
@@ -85,6 +90,7 @@ function playerFiltering() {
         d3.select("tbody").selectAll("tr").remove();
         // Filter Table based on selections
         let playerFilteredData = playerData.filter(nameFilter);
+        console.log(playerFilteredData);
         playerFilteredData = playerData.filter(positionFilter);
         playerFilteredData = playerData.filter(ageFilter);
         playerFilteredData = playerData.filter(overallRatingFilter);
