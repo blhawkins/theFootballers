@@ -15,8 +15,10 @@ window.onload = function playerListFun() {
             player.property('value', index)
         })
     })
+    // Call updateGraphicsFun() when a change takes place to the DOM
+    d3.selectAll("#selDataset").on("change", updateGraphicsFun);
     //Initialize the webpage's graphics with the first player in the dataset
-    createGraphicsFun(0)
+    createGraphicsFun(76)
 }
 
 //----------Function: Creation of Visualizations----------
@@ -26,7 +28,6 @@ window.onload = function playerListFun() {
 function createGraphicsFun(index) {
     d3.json('../Data/scraped_data.json').then((importedData) => {
         var playerData = importedData[0]['players_data'][index]
-        console.log(playerData)
         //-----Demographic Info Table Creation-----
         //Select the #player-data id from the players.html file
         var demographicsTable = d3.select('#player-data');
@@ -85,8 +86,8 @@ function createGraphicsFun(index) {
         ];
         //Define the layout of the figure
         var overallGaugeLayout = {
-            width: 600, 
-            height: 450, 
+            width: 400, 
+            height: 300, 
             margin: { t: 0, b: 0 },
         };
         //Create the figure at the 'overall-gauge' tag
@@ -122,8 +123,8 @@ function createGraphicsFun(index) {
         ];
         //Define the layout of the figure
         var potentialGaugeLayout = {
-            width: 600, 
-            height: 450, 
+            width: 400, 
+            height: 300, 
             margin: { t: 0, b: 0 },
         };
         //Create the figure at the 'potential-gauge' tag
@@ -134,7 +135,7 @@ function createGraphicsFun(index) {
             {
                 domain: {x: [0, 1], y: [0, 1]},
                 value: playerData['value_in_millions_of_euros'],
-                title: {text: `${playerData['name']}'s Value (Millions of Euros)`},
+                title: {text: `Value (Millions of Euros)`},
                 type: "indicator",
                 mode: "gauge+number",
                 gauge: {
@@ -159,8 +160,8 @@ function createGraphicsFun(index) {
         ];
         //Define the layout of the figure
         var valueGaugeLayout = {
-            width: 600, 
-            height: 450, 
+            width: 400, 
+            height: 300, 
             margin: { t: 0, b: 0 },
         };
         //Create the figure at the 'value-gauge' tag
@@ -170,7 +171,7 @@ function createGraphicsFun(index) {
             {
                 domain: {x: [0, 1], y: [0, 1]},
                 value: playerData['wage_in_thousands_of_euros_per_week'],
-                title: {text: `${playerData['name']}'s Wage (Thousands of Euros Per Week)`},
+                title: {text: `Wage (Thousands of Euros Per Week)`},
                 type: "indicator",
                 mode: "gauge+number",
                 gauge: {
@@ -195,8 +196,8 @@ function createGraphicsFun(index) {
         ];
         //Define the layout of the figure
         var wageGaugeLayout = {
-            width: 600, 
-            height: 450, 
+            width: 400, 
+            height: 300, 
             margin: { t: 0, b: 0 },
         };
         //Create the figure at the 'wage-gauge' tag
@@ -207,21 +208,16 @@ function createGraphicsFun(index) {
 //----------Function: Updating of Visualizations----------
 //--------------------------------------------------------
 
-//This function updates the visualizations according to the Patient ID chosen from the dropdown menu
+//This function updates the visualizations according to the player name chosen from the dropdown menu
 function updateGraphicsFun() {
+    console.log('you got here')
     //Use D3 to select the dropdown menu
     var dropdownMenu = d3.select('#selDataset');
-    //Assign the value of the dropdown menu option to a variable patientIndex
+    //Assign the value of the dropdown menu option to a variable playerIndex
     var playerIndex = dropdownMenu.property("value");
-    //Clear the Patient Demographics table in preparation for new values to be printed
+    //Clear the Player Demographics table in preparation for new values to be printed
     var demographicsTable = d3.select('#player-data');
     demographicsTable.html('')
-    //Call the createGraphicsFun and input the desired patientIndex
+    //Call the createGraphicsFun and input the desired playerIndex
     createGraphicsFun(playerIndex)
 };
-
-//----------Dataset Selection----------
-//-------------------------------------
-
-// Call uupdateGraphicsFun() when a change takes place to the DOM
-d3.selectAll("#selDataset").on("change", updateGraphicsFun);

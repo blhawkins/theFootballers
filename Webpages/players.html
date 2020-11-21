@@ -1,28 +1,22 @@
 <!DOCTYPE html>
-<html lang='en-us'>
+<html lang = 'en-us'>
 
 <head>
-    <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     <script src = '../Static/JS/playerDashboard.js'></script>
+
     <meta charset = 'UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-        <!--https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website-->
-
-    <title>Latitude</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="..Static/CSS/players.css"
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <title>Player Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="players.css">
 </head>
 
 <body>
@@ -55,45 +49,60 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container" id="main-content-player-dashboard">
+        <div class="row" id="buffer-row"></div>
         <div class="row">
-          <div class="col-md-12 jumbotron text-center">
-            <h1>Most Valueable Footballers Dashboard</h1>
-            <p>Choose a player from the menu below!</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="well">
-              <h5>Player Name</h5>
-              <select id="selDataset"></select>
+            <div class="col-md-12 jumbotron text-center">
+                <h1 id="page-title-player-dashboard">
+                    Most Valuable Footballers Dashboard
+                </h1>
+                <p>Choose a player from the menu below!</p>
             </div>
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h3 class="panel-title">Demographic Info</h3>
-              </div>
-              <div id="player-data" class="panel-body"></div>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <div id="overall-gauge"></div>
-          </div>
-          <div class="col-md-5">
-            <div id="potential-gauge"></div>
-          </div>
         </div>
         <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-5">
-            <div id="value-gauge"></div>
-          </div>
-          <div class="col-md-5">
-            <div id="wage-gauge"></div>
-          </div>
+            <div class = 'col-md-1'></div>
+            <div class="jumbotron col-md-4" id="player-select">
+                <div class="well">
+                    <h3 class="subheading-player-dashboard">Player Name</h3>
+                    <select id="selDataset"></select>
+                </div>
+            </div>
+            <div class = 'col-md-2'></div>
+            <div class="jumbotron col-md-4" id="demographic-table">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <h3 class="panel-title subheading-player-dashboard">Demographic Info</h3>
+                    </div>
+                    <div id="player-data" class="panel-body"></div>
+                </div>
+            </div>
+            
         </div>
-      </div>
-    
-      
-      
+        <div class="row">
+            <div class="col-md-5 jumbotron text-center" id="overall-gauge-chart">
+                <h3 class="subheading-player-dashboard">Overall Rating</h3>
+                <div class='gauge-chart' id="overall-gauge"></div>
+            </div>
+            <div class = 'col-md-2'></div>
+            <div class="col-md-5 jumbotron text-center" id="potential-gauge-chart">
+                <h3 class="subheading-player-dashboard">Potential Rating</h3>
+                <div class='gauge-chart' id="potential-gauge"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 jumbotron text-center" id="value-gauge-chart">
+                <h3 class="subheading-player-dashboard">Player Value</h3>
+                <div class='gauge-chart' id="value-gauge"></div>
+            </div>
+            <div class = 'col-md-2'></div>
+            <div class="col-md-5 jumbotron text-center" id="wage-gauge-chart">
+                <h3 class="subheading-player-dashboard">Player Wage</h3>
+                <div class='gauge-chart' id="wage-gauge"></div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
+
 </html>
