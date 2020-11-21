@@ -18,7 +18,7 @@ window.onload = function playerListFun() {
     // Call updateGraphicsFun() when a change takes place to the DOM
     d3.selectAll("#selDataset").on("change", updateGraphicsFun);
     //Initialize the webpage's graphics with the first player in the dataset
-    createGraphicsFun(76)
+    createGraphicsFun(0)
 }
 
 //----------Function: Creation of Visualizations----------

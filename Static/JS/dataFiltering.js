@@ -1,8 +1,7 @@
-
+//Function that initializes the data entries in the table
 function initializeTable() {
-    d3.json("../Data/scraped_data.json", function(data) {
-        //Table creation
-        var playerData = data[0]['players_data'];
+    d3.json('../Data/scraped_data.json').then((importedData) => {
+        var playerData = importedData[0]['players_data']
         playerData.age = +playerData.age
         playerData.overall_rating = +playerData.overall_rating
         playerData.potential_rating = +playerData.potential_rating
@@ -12,6 +11,10 @@ function initializeTable() {
     });
 };
 
+//Call the initializeTable function
+initializeTable()
+
+//Function that appends a row for each data entry
 function tablePopulationFun(player) {
     var tbody = d3.select('tbody') //NOTE the data.html file must have this
     var row = tbody.append('tr')
@@ -19,6 +22,8 @@ function tablePopulationFun(player) {
         var cell = row.append('td')
         cell.text(value)
     });
+    //
+    d3.select("#filter-btn").on("click", playerFiltering);
 }
 
 function nameFilter(dt) {
@@ -71,34 +76,30 @@ function countryFilter(dt) {
 
 function playerFiltering() {
     //Pull in data
-    d3.json("../Data/scraped_data.json", function(data) {
+    d3.json("../Data/scraped_data.json").then((importedData) => {
         //Table creation
-        var playerData = data[0]['players_data'];
+        var playerData = importedData[0]['players_data'];
         playerData.age = +playerData.age
         playerData.overall_rating = +playerData.overall_rating
         playerData.potential_rating = +playerData.potential_rating
         playerData.value_in_millions_of_euros = +playerData.value_in_millions_of_euros
         playerData.wage_in_thousands_of_euros_per_week = +playerData.wage_in_thousands_of_euros_per_week
-        // Prevent Page Refresh
+        //Prevent Page Refresh
         //d3.event.preventDefault(); //WHY IS THIS NOT WORKING??
-        // Remove Table Body
+        //Remove Table Body
         d3.select("tbody").selectAll("tr").remove();
-        // Filter Table based on selections
+        //Filter Table based on selections
         let playerFilteredData = playerData.filter(nameFilter);
         playerFilteredData = playerData.filter(positionFilter);
         playerFilteredData = playerData.filter(ageFilter);
         playerFilteredData = playerData.filter(overallRatingFilter);
         playerFilteredData = playerData.filter(potentialRatingFilter);
         playerFilteredData = playerData.filter(countryFilter);
-        // Reload Filtered Table
+        //Reload Filtered Table
         playerFilteredData.forEach(tablePopulationFun)
     });
 }
 
-
-let filterButton = d3.select("#filter-btn");
-// console.log(document.getElementById("filter-btn"));
-// console.log(filterButton);
-filterButton.on("click", playerFiltering);
-
-initializeTable()
+function testFun() {
+    console.log('Successful?')
+}
