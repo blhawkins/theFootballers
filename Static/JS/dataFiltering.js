@@ -30,7 +30,7 @@ function nameFilter(dt) {
     let inputSearchName = d3.select("#name"); //MAKE SURE YOU HAVE THIS
     let inputSearchNameValue = inputSearchName.property("value");
     if (inputSearchNameValue)
-        return dt.name == inputSearchNameValue //Figure out how to return 'includes this'
+        return dt.name == inputSearchNameValue
     return true;
 }
 
@@ -84,22 +84,16 @@ function playerFiltering() {
         playerData.potential_rating = +playerData.potential_rating
         playerData.value_in_millions_of_euros = +playerData.value_in_millions_of_euros
         playerData.wage_in_thousands_of_euros_per_week = +playerData.wage_in_thousands_of_euros_per_week
-        //Prevent Page Refresh
-        //d3.event.preventDefault(); //WHY IS THIS NOT WORKING??
         //Remove Table Body
         d3.select("tbody").selectAll("tr").remove();
         //Filter Table based on selections
         let playerFilteredData = playerData.filter(nameFilter);
-        playerFilteredData = playerData.filter(positionFilter);
-        playerFilteredData = playerData.filter(ageFilter);
-        playerFilteredData = playerData.filter(overallRatingFilter);
-        playerFilteredData = playerData.filter(potentialRatingFilter);
-        playerFilteredData = playerData.filter(countryFilter);
+        playerFilteredData = playerFilteredData.filter(positionFilter);
+        playerFilteredData = playerFilteredData.filter(ageFilter);
+        playerFilteredData = playerFilteredData.filter(overallRatingFilter);
+        playerFilteredData = playerFilteredData.filter(potentialRatingFilter);
+        playerFilteredData = playerFilteredData.filter(countryFilter);
         //Reload Filtered Table
         playerFilteredData.forEach(tablePopulationFun)
     });
-}
-
-function testFun() {
-    console.log('Successful?')
 }
