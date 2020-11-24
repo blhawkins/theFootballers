@@ -1,3 +1,7 @@
+//------------------------------------------------------------------------------//
+//------------------------------Data.html JS Code------------------------------//
+//------------------------------------------------------------------------------//
+
 //Function that initializes the data entries in the table
 function initializeTable() {
     d3.json('../Data/scraped_data.json').then((importedData) => {
