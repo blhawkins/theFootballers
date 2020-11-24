@@ -30,7 +30,7 @@ function nameFilter(dt) {
     let inputSearchName = d3.select("#name"); //MAKE SURE YOU HAVE THIS
     let inputSearchNameValue = inputSearchName.property("value");
     if (inputSearchNameValue)
-        return dt.name == inputSearchNameValue
+        return dt.name.includes(inputSearchNameValue);
     return true;
 }
 
@@ -70,7 +70,7 @@ function countryFilter(dt) {
     let inputSearchCountry = d3.select("#country"); //MAKE SURE YOU HAVE THIS
     let inputSearchCountryValue = inputSearchCountry.property("value");
     if (inputSearchCountryValue)
-        return dt.national_team == inputSearchCountryValue //Figure out how to return 'includes this'
+        return dt.national_team.includes(inputSearchCountryValue)
     return true;
 }
 
