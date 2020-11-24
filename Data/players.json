@@ -1,0 +1,1802 @@
+players = [
+  {
+    "Player": "THOMAS STRAKOSHA",
+    "Country": "ALBANIA",
+    "Club": "LAZIO",
+    "UN_Code": "AL"
+  },
+  {
+    "Player": "RIYAD MAHREZ",
+    "Country": "ALGERIA",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "DZ"
+  },
+  {
+    "Player": "PAULO DYBALA",
+    "Country": "ARGENTINA",
+    "Club": "JUVENTUS",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "LIONEL MESSI",
+    "Country": "ARGENTINA",
+    "Club": "FC BARCELONA",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "LAUTARO MARTÍNEZ",
+    "Country": "ARGENTINA",
+    "Club": "INTER",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "SERGIO AGÜERO",
+    "Country": "ARGENTINA",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "ÁNGEL DI MARÍA",
+    "Country": "ARGENTINA",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "MAURO ICARDI",
+    "Country": "ARGENTINA",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "ALEJANDRO GÓMEZ",
+    "Country": "ARGENTINA",
+    "Club": "ATALANTA",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "GIOVANI LO CELSO",
+    "Country": "ARGENTINA",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "NICOLÁS TAGLIAFICO",
+    "Country": "ARGENTINA",
+    "Club": "AJAX",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "ÁNGEL CORREA",
+    "Country": "ARGENTINA",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "LUCAS OCAMPOS",
+    "Country": "ARGENTINA",
+    "Club": "SEVILLA FC",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "JOAQUÍN CORREA",
+    "Country": "ARGENTINA",
+    "Club": "LAZIO",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "MARCOS ACUÑA",
+    "Country": "ARGENTINA",
+    "Club": "SEVILLA FC",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "MARCOS SENESI",
+    "Country": "ARGENTINA",
+    "Club": "FEYENOORD",
+    "UN_Code": "AR"
+  },
+  {
+    "Player": "MARCEL SABITZER",
+    "Country": "AUSTRIA",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "AT"
+  },
+  {
+    "Player": "KONRAD LAIMER",
+    "Country": "AUSTRIA",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "AT"
+  },
+  {
+    "Player": "DAVID ALABA",
+    "Country": "AUSTRIA",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "AT"
+  },
+  {
+    "Player": "KEVIN DE BRUYNE",
+    "Country": "BELGIUM",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "EDEN HAZARD",
+    "Country": "BELGIUM",
+    "Club": "REAL MADRID",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "THIBAUT COURTOIS",
+    "Country": "BELGIUM",
+    "Club": "REAL MADRID",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "ROMELU LUKAKU",
+    "Country": "BELGIUM",
+    "Club": "INTER",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "THORGAN HAZARD",
+    "Country": "BELGIUM",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "TOBY ALDERWEIRELD",
+    "Country": "BELGIUM",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "YOURI TIELEMANS",
+    "Country": "BELGIUM",
+    "Club": "LEICESTER CITY",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "DRIES MERTENS",
+    "Country": "BELGIUM",
+    "Club": "NAPOLI",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "YANNICK CARRASCO",
+    "Country": "BELGIUM",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "KOEN CASTEELS",
+    "Country": "BELGIUM",
+    "Club": "VFL WOLFSBURG",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "AXEL WITSEL",
+    "Country": "BELGIUM",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "RADJA NAINGGOLAN",
+    "Country": "BELGIUM",
+    "Club": "INTER",
+    "UN_Code": "BE"
+  },
+  {
+    "Player": "MIRALEM PJANIĆ",
+    "Country": "BOSNIA HERZEGOVINA",
+    "Club": "FC BARCELONA",
+    "UN_Code": "BA"
+  },
+  {
+    "Player": "EDIN VIŠĆA",
+    "Country": "BOSNIA HERZEGOVINA",
+    "Club": "MEDIPOL BAŞAKŞEHIR FK",
+    "UN_Code": "BA"
+  },
+  {
+    "Player": "NEYMAR DA SILVA SANTOS JR.",
+    "Country": "BRAZIL",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ALISSON RAMSES BECKER",
+    "Country": "BRAZIL",
+    "Club": "LIVERPOOL",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "EDERSON SANTANA DE MORAES",
+    "Country": "BRAZIL",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "CARLOS HENRIQUE VENANCIO CASIMIRO",
+    "Country": "BRAZIL",
+    "Club": "REAL MADRID",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "FÁBIO HENRIQUE TAVARES",
+    "Country": "BRAZIL",
+    "Club": "LIVERPOOL",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ROBERTO FIRMINO BARBOSA DE OLIVEIRA",
+    "Country": "BRAZIL",
+    "Club": "LIVERPOOL",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "MARCOS AOÁS CORRÊA",
+    "Country": "BRAZIL",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ARTHUR HENRIQUE RAMOS OLIVEIRA MELO",
+    "Country": "BRAZIL",
+    "Club": "JUVENTUS",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "GABRIEL FERNANDO DE JESUS",
+    "Country": "BRAZIL",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "RICHARLISON DE ANDRADE",
+    "Country": "BRAZIL",
+    "Club": "EVERTON",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "VINÍCIUS JOSÉ DE OLIVEIRA JÚNIOR",
+    "Country": "BRAZIL",
+    "Club": "REAL MADRID",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ALEX SANDRO LOBO SILVA",
+    "Country": "BRAZIL",
+    "Club": "JUVENTUS",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ALEX NICOLAO TELLES",
+    "Country": "BRAZIL",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ANDERSON SOUZA CONCEIÇÃO",
+    "Country": "BRAZIL",
+    "Club": "GUANGZHOU EVERGRANDE TAOBAO FC",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ÉDER GABRIEL MILITÃO",
+    "Country": "BRAZIL",
+    "Club": "REAL MADRID",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "MATHEUS SANTOS CARNEIRO DA CUNHA",
+    "Country": "BRAZIL",
+    "Club": "HERTHA BSC",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "EVERTON SOUSA SOARES",
+    "Country": "BRAZIL",
+    "Club": "SL BENFICA",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "DIEGO CARLOS SANTOS SILVA",
+    "Country": "BRAZIL",
+    "Club": "SEVILLA FC",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "RENAN AUGUSTO LODI DOS SANTOS",
+    "Country": "BRAZIL",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ANTONY MATHEUS DOS SANTOS",
+    "Country": "BRAZIL",
+    "Club": "AJAX",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "RODRYGO SILVA DE GOES",
+    "Country": "BRAZIL",
+    "Club": "REAL MADRID",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "RAPHAEL DIAS BELLOLI",
+    "Country": "BRAZIL",
+    "Club": "LEEDS UNITED",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "PHILIPPE COUTINHO CORREIA",
+    "Country": "BRAZIL",
+    "Club": "FC BARCELONA",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "RONALDO JAILSON CABRAIS PETRI",
+    "Country": "BRAZIL",
+    "Club": "GRÊMIO",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "OSCAR DOS SANTOS EMBOABA",
+    "Country": "BRAZIL",
+    "Club": "SHANGHAI SIPG FC",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "DOUGLAS COSTA DE SOUZA",
+    "Country": "BRAZIL",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "ALLAN MARQUES LOUREIRO",
+    "Country": "BRAZIL",
+    "Club": "EVERTON",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "LUCAS RODRIGUES M. SILVA",
+    "Country": "BRAZIL",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "DAVID NERES CAMPOS",
+    "Country": "BRAZIL",
+    "Club": "AJAX",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "BRUNO GUIMARÃES MOURA",
+    "Country": "BRAZIL",
+    "Club": "OLYMPIQUE LYONNAIS",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "JOSÉ PAULO BEZERRA M. JÚNIOR",
+    "Country": "BRAZIL",
+    "Club": "GUANGZHOU EVERGRANDE TAOBAO FC",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "EMERSON LEITE DE SOUZA",
+    "Country": "BRAZIL",
+    "Club": "REAL BETIS",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "NUNO AILTON PADRENDA MENDES",
+    "Country": "BRAZIL",
+    "Club": "PALMEIRAS",
+    "UN_Code": "BR"
+  },
+  {
+    "Player": "EDMOND TAPSOBA",
+    "Country": "BURKINA FASO",
+    "Club": "BAYER 04 LEVERKUSEN",
+    "UN_Code": "BF"
+  },
+  {
+    "Player": "ANDRÉ ONANA",
+    "Country": "CAMEROON",
+    "Club": "AJAX",
+    "UN_Code": "CM"
+  },
+  {
+    "Player": "JOEL MATIP",
+    "Country": "CAMEROON",
+    "Club": "LIVERPOOL",
+    "UN_Code": "CM"
+  },
+  {
+    "Player": "ALPHONSO DAVIES",
+    "Country": "CANADA",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "CA"
+  },
+  {
+    "Player": "DUVÁN ZAPATA",
+    "Country": "COLOMBIA",
+    "Club": "ATALANTA",
+    "UN_Code": "CO"
+  },
+  {
+    "Player": "DAVINSON SÁNCHEZ",
+    "Country": "COLOMBIA",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "CO"
+  },
+  {
+    "Player": "LUIS DÍAZ",
+    "Country": "COLOMBIA",
+    "Club": "FC PORTO",
+    "UN_Code": "CO"
+  },
+  {
+    "Player": "JAMES RODRÍGUEZ",
+    "Country": "COLOMBIA",
+    "Club": "EVERTON",
+    "UN_Code": "CO"
+  },
+  {
+    "Player": "MATEO KOVAČIĆ",
+    "Country": "CROATIA",
+    "Club": "CHELSEA",
+    "UN_Code": "HR"
+  },
+  {
+    "Player": "MARCELO BROZOVIĆ",
+    "Country": "CROATIA",
+    "Club": "INTER",
+    "UN_Code": "HR"
+  },
+  {
+    "Player": "LUKA MODRIĆ",
+    "Country": "CROATIA",
+    "Club": "REAL MADRID",
+    "UN_Code": "HR"
+  },
+  {
+    "Player": "NIKOLA VLAŠIĆ",
+    "Country": "CROATIA",
+    "Club": "PFC CSKA MOSCOW",
+    "UN_Code": "HR"
+  },
+  {
+    "Player": "ANDREJ KRAMARIĆ",
+    "Country": "CROATIA",
+    "Club": "TSG 1899 HOFFENHEIM",
+    "UN_Code": "HR"
+  },
+  {
+    "Player": "DOMINIK LIVAKOVIĆ",
+    "Country": "CROATIA",
+    "Club": "DINAMO ZAGREB",
+    "UN_Code": "HR"
+  },
+  {
+    "Player": "TOMÁŠ SOUČEK",
+    "Country": "CZECH REPUBLIC",
+    "Club": "WEST HAM UNITED",
+    "UN_Code": "CZ"
+  },
+  {
+    "Player": "CHRISTIAN ERIKSEN",
+    "Country": "DENMARK",
+    "Club": "INTER",
+    "UN_Code": "DK"
+  },
+  {
+    "Player": "PIERRE-EMILE HØJBJERG",
+    "Country": "DENMARK",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "DK"
+  },
+  {
+    "Player": "PERVIS ESTUPIÑÁN",
+    "Country": "ECUADOR",
+    "Club": "VILLARREAL CF",
+    "UN_Code": "EC"
+  },
+  {
+    "Player": "MOHAMED SALAH",
+    "Country": "EGYPT",
+    "Club": "LIVERPOOL",
+    "UN_Code": "EG"
+  },
+  {
+    "Player": "JADON SANCHO",
+    "Country": "ENGLAND",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "HARRY KANE",
+    "Country": "ENGLAND",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "RAHEEM STERLING",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "TRENT ALEXANDER-ARNOLD",
+    "Country": "ENGLAND",
+    "Club": "LIVERPOOL",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "MARCUS RASHFORD",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "JORDAN HENDERSON",
+    "Country": "ENGLAND",
+    "Club": "LIVERPOOL",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "AARON WAN-BISSAKA",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "JAMIE VARDY",
+    "Country": "ENGLAND",
+    "Club": "LEICESTER CITY",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "JOE GOMEZ",
+    "Country": "ENGLAND",
+    "Club": "LIVERPOOL",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "KYLE WALKER",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "DELE ALLI",
+    "Country": "ENGLAND",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "MASON MOUNT",
+    "Country": "ENGLAND",
+    "Club": "CHELSEA",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "PHIL FODEN",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "JAMES MADDISON",
+    "Country": "ENGLAND",
+    "Club": "LEICESTER CITY",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "DEAN HENDERSON",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "BEN CHILWELL",
+    "Country": "ENGLAND",
+    "Club": "CHELSEA",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "DOMINIC CALVERT-LEWIN",
+    "Country": "ENGLAND",
+    "Club": "EVERTON",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "DECLAN RICE",
+    "Country": "ENGLAND",
+    "Club": "WEST HAM UNITED",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "LUKE SHAW",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "HARRY MAGUIRE",
+    "Country": "ENGLAND",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "JACK GREALISH",
+    "Country": "ENGLAND",
+    "Club": "ASTON VILLA",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "TAMMY ABRAHAM",
+    "Country": "ENGLAND",
+    "Club": "CHELSEA",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "KYLIAN MBAPPÉ",
+    "Country": "FRANCE",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "AYMERIC LAPORTE",
+    "Country": "FRANCE",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "KARIM BENZEMA",
+    "Country": "FRANCE",
+    "Club": "REAL MADRID",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "N'GOLO KANTÉ",
+    "Country": "FRANCE",
+    "Club": "CHELSEA",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "PAUL POGBA",
+    "Country": "FRANCE",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "KINGSLEY COMAN",
+    "Country": "FRANCE",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "RAPHAËL VARANE",
+    "Country": "FRANCE",
+    "Club": "REAL MADRID",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "ANTOINE GRIEZMANN",
+    "Country": "FRANCE",
+    "Club": "FC BARCELONA",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "CLÉMENT LENGLET",
+    "Country": "FRANCE",
+    "Club": "FC BARCELONA",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "HOUSSEM AOUAR",
+    "Country": "FRANCE",
+    "Club": "OLYMPIQUE LYONNAIS",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "ANTHONY MARTIAL",
+    "Country": "FRANCE",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "OUSMANE DEMBÉLÉ",
+    "Country": "FRANCE",
+    "Club": "FC BARCELONA",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "MOUSSA DIABY",
+    "Country": "FRANCE",
+    "Club": "BAYER 04 LEVERKUSEN",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "FERLAND MENDY",
+    "Country": "FRANCE",
+    "Club": "REAL MADRID",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "LUCAS HERNÁNDEZ",
+    "Country": "FRANCE",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "LUCAS DIGNE",
+    "Country": "FRANCE",
+    "Club": "EVERTON",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "DAYOT UPAMECANO",
+    "Country": "FRANCE",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "NABIL FEKIR",
+    "Country": "FRANCE",
+    "Club": "REAL BETIS",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "WISSAM BEN YEDDER",
+    "Country": "FRANCE",
+    "Club": "AS MONACO",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "SAMUEL UMTITI",
+    "Country": "FRANCE",
+    "Club": "FC BARCELONA",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "TANGUY NDOMBELE",
+    "Country": "FRANCE",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "PRESNEL KIMPEMBE",
+    "Country": "FRANCE",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "NORDI MUKIELE",
+    "Country": "FRANCE",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "ALEXANDRE LACAZETTE",
+    "Country": "FRANCE",
+    "Club": "ARSENAL",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "JONATHAN IKONÉ",
+    "Country": "FRANCE",
+    "Club": "LOSC LILLE",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "THOMAS LEMAR",
+    "Country": "FRANCE",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "BENJAMIN PAVARD",
+    "Country": "FRANCE",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "MIKE MAIGNAN",
+    "Country": "FRANCE",
+    "Club": "LOSC LILLE",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "CHRISTOPHER NKUNKU",
+    "Country": "FRANCE",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "MARCUS THURAM",
+    "Country": "FRANCE",
+    "Club": "BORUSSIA MÖNCHENGLADBACH",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "ALLAN SAINT-MAXIMIN",
+    "Country": "FRANCE",
+    "Club": "NEWCASTLE UNITED",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "JULES KOUNDÉ",
+    "Country": "FRANCE",
+    "Club": "SEVILLA FC",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "DAN-AXEL ZAGADOU",
+    "Country": "FRANCE",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "FLORIAN THAUVIN",
+    "Country": "FRANCE",
+    "Club": "OLYMPIQUE DE MARSEILLE",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "ALPHONSE AREOLA",
+    "Country": "FRANCE",
+    "Club": "FULHAM",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "ADRIEN RABIOT",
+    "Country": "FRANCE",
+    "Club": "JUVENTUS",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "MOUSSA DEMBÉLÉ",
+    "Country": "FRANCE",
+    "Club": "OLYMPIQUE LYONNAIS",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "THEO HERNÁNDEZ",
+    "Country": "FRANCE",
+    "Club": "MILAN",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "IBRAHIMA KONATÉ",
+    "Country": "FRANCE",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "EDUARDO CAMAVINGA",
+    "Country": "FRANCE",
+    "Club": "STADE RENNAIS FC",
+    "UN_Code": "FR"
+  },
+  {
+    "Player": "PIERRE-EMERICK AUBAMEYANG",
+    "Country": "GABON",
+    "Club": "ARSENAL",
+    "UN_Code": "GA"
+  },
+  {
+    "Player": "KAI HAVERTZ",
+    "Country": "GERMANY",
+    "Club": "CHELSEA",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "MARC-ANDRÉ TER STEGEN",
+    "Country": "GERMANY",
+    "Club": "FC BARCELONA",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "JOSHUA KIMMICH",
+    "Country": "GERMANY",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "SERGE GNABRY",
+    "Country": "GERMANY",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "TONI KROOS",
+    "Country": "GERMANY",
+    "Club": "REAL MADRID",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "LEROY SANÉ",
+    "Country": "GERMANY",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "TIMO WERNER",
+    "Country": "GERMANY",
+    "Club": "CHELSEA",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "LEON GORETZKA",
+    "Country": "GERMANY",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "THOMAS MÜLLER",
+    "Country": "GERMANY",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "JULIAN BRANDT",
+    "Country": "GERMANY",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "NIKLAS SÜLE",
+    "Country": "GERMANY",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "MATS HUMMELS",
+    "Country": "GERMANY",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "BERND LENO",
+    "Country": "GERMANY",
+    "Club": "ARSENAL",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "MARCO REUS",
+    "Country": "GERMANY",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "EMRE CAN",
+    "Country": "GERMANY",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "İLKAY GÜNDOĞAN",
+    "Country": "GERMANY",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "FLORIAN NEUHAUS",
+    "Country": "GERMANY",
+    "Club": "BORUSSIA MÖNCHENGLADBACH",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "ROBIN GOSENS",
+    "Country": "GERMANY",
+    "Club": "ATALANTA",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "MATTHIAS GINTER",
+    "Country": "GERMANY",
+    "Club": "BORUSSIA MÖNCHENGLADBACH",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "LUKAS KLOSTERMANN",
+    "Country": "GERMANY",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "DE"
+  },
+  {
+    "Player": "THOMAS PARTEY",
+    "Country": "GHANA",
+    "Club": "ARSENAL",
+    "UN_Code": "GH"
+  },
+  {
+    "Player": "KOSTAS MANOLAS",
+    "Country": "GREECE",
+    "Club": "NAPOLI",
+    "UN_Code": "GR"
+  },
+  {
+    "Player": "ODISSEAS VLACHODIMOS",
+    "Country": "GREECE",
+    "Club": "SL BENFICA",
+    "UN_Code": "GR"
+  },
+  {
+    "Player": "NABY KEÏTA",
+    "Country": "GUINEA",
+    "Club": "LIVERPOOL",
+    "UN_Code": "GN"
+  },
+  {
+    "Player": "PÉTER GULÁCSI",
+    "Country": "HUNGARY",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "HU"
+  },
+  {
+    "Player": "GIANLUIGI DONNARUMMA",
+    "Country": "ITALY",
+    "Club": "MILAN",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "CIRO IMMOBILE",
+    "Country": "ITALY",
+    "Club": "LAZIO",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "MARCO VERRATTI",
+    "Country": "ITALY",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "LORENZO INSIGNE",
+    "Country": "ITALY",
+    "Club": "NAPOLI",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "NICOLÒ BARELLA",
+    "Country": "ITALY",
+    "Club": "INTER",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "ALESSIO ROMAGNOLI",
+    "Country": "ITALY",
+    "Club": "MILAN",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "LUIZ FRELLO FILHO JORGE",
+    "Country": "ITALY",
+    "Club": "CHELSEA",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "MANUEL LAZZARI",
+    "Country": "ITALY",
+    "Club": "LAZIO",
+    "UN_Code": "IT"
+  },
+  {
+    "Player": "NICOLAS PÉPÉ",
+    "Country": "IVORY COAST",
+    "Club": "ARSENAL",
+    "UN_Code": "CI"
+  },
+  {
+    "Player": "WILFRIED ZAHA",
+    "Country": "IVORY COAST",
+    "Club": "CRYSTAL PALACE",
+    "UN_Code": "CI"
+  },
+  {
+    "Player": "LEON BAILEY",
+    "Country": "JAMAICA",
+    "Club": "BAYER 04 LEVERKUSEN",
+    "UN_Code": "JM"
+  },
+  {
+    "Player": "HEUNG MIN SON",
+    "Country": "KOREA REPUBLIC",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "KR"
+  },
+  {
+    "Player": "JESÚS CORONA",
+    "Country": "MEXICO",
+    "Club": "FC PORTO",
+    "UN_Code": "MX"
+  },
+  {
+    "Player": "RAÚL JIMÉNEZ",
+    "Country": "MEXICO",
+    "Club": "WOLVERHAMPTON WANDERERS",
+    "UN_Code": "MX"
+  },
+  {
+    "Player": "CARLOS VELA",
+    "Country": "MEXICO",
+    "Club": "LOS ANGELES FC",
+    "UN_Code": "MX"
+  },
+  {
+    "Player": "HIRVING LOZANO",
+    "Country": "MEXICO",
+    "Club": "NAPOLI",
+    "UN_Code": "MX"
+  },
+  {
+    "Player": "HAKIM ZIYECH",
+    "Country": "MOROCCO",
+    "Club": "CHELSEA",
+    "UN_Code": "MA"
+  },
+  {
+    "Player": "ACHRAF HAKIMI",
+    "Country": "MOROCCO",
+    "Club": "INTER",
+    "UN_Code": "MA"
+  },
+  {
+    "Player": "VIRGIL VAN DIJK",
+    "Country": "NETHERLANDS",
+    "Club": "LIVERPOOL",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "MATTHIJS DE LIGT",
+    "Country": "NETHERLANDS",
+    "Club": "JUVENTUS",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "FRENKIE DE JONG",
+    "Country": "NETHERLANDS",
+    "Club": "FC BARCELONA",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "MEMPHIS DEPAY",
+    "Country": "NETHERLANDS",
+    "Club": "OLYMPIQUE LYONNAIS",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "GEORGINIO WIJNALDUM",
+    "Country": "NETHERLANDS",
+    "Club": "LIVERPOOL",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "DONNY VAN DE BEEK",
+    "Country": "NETHERLANDS",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "STEVEN BERGWIJN",
+    "Country": "NETHERLANDS",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "STEFAN DE VRIJ",
+    "Country": "NETHERLANDS",
+    "Club": "INTER",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "DONYELL MALEN",
+    "Country": "NETHERLANDS",
+    "Club": "PSV",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "CALVIN STENGS",
+    "Country": "NETHERLANDS",
+    "Club": "AZ ALKMAAR",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "STEVEN BERGHUIS",
+    "Country": "NETHERLANDS",
+    "Club": "FEYENOORD",
+    "UN_Code": "NL"
+  },
+  {
+    "Player": "WILFRED NDIDI",
+    "Country": "NIGERIA",
+    "Club": "LEICESTER CITY",
+    "UN_Code": "NG"
+  },
+  {
+    "Player": "VICTOR OSIMHEN",
+    "Country": "NIGERIA",
+    "Club": "NAPOLI",
+    "UN_Code": "NG"
+  },
+  {
+    "Player": "ERLING HAALAND",
+    "Country": "NORWAY",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "NO"
+  },
+  {
+    "Player": "MARTIN ØDEGAARD",
+    "Country": "NORWAY",
+    "Club": "REAL MADRID",
+    "UN_Code": "NO"
+  },
+  {
+    "Player": "SANDER BERGE",
+    "Country": "NORWAY",
+    "Club": "SHEFFIELD UNITED",
+    "UN_Code": "NO"
+  },
+  {
+    "Player": "ROBERT LEWANDOWSKI",
+    "Country": "POLAND",
+    "Club": "FC BAYERN MÜNCHEN",
+    "UN_Code": "PL"
+  },
+  {
+    "Player": "WOJCIECH SZCZĘSNY",
+    "Country": "POLAND",
+    "Club": "JUVENTUS",
+    "UN_Code": "PL"
+  },
+  {
+    "Player": "ARKADIUSZ MILIK",
+    "Country": "POLAND",
+    "Club": "NAPOLI",
+    "UN_Code": "PL"
+  },
+  {
+    "Player": "BRUNO MIGUEL BORGES FERNANDES",
+    "Country": "PORTUGAL",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "BERNARDO MOTA CARVALHO E SILVA",
+    "Country": "PORTUGAL",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "JOÃO FÉLIX SEQUEIRA",
+    "Country": "PORTUGAL",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "C. RONALDO DOS SANTOS AVEIRO",
+    "Country": "PORTUGAL",
+    "Club": "JUVENTUS",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "RICARDO BARBOSA PEREIRA",
+    "Country": "PORTUGAL",
+    "Club": "LEICESTER CITY",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "RAPHAËL GUERREIRO",
+    "Country": "PORTUGAL",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "RÚBEN DIOGO DA SILVA NEVES",
+    "Country": "PORTUGAL",
+    "Club": "WOLVERHAMPTON WANDERERS",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "JOÃO PEDRO CAVACO CANCELO",
+    "Country": "PORTUGAL",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "NÉLSON CABRAL SEMEDO",
+    "Country": "PORTUGAL",
+    "Club": "WOLVERHAMPTON WANDERERS",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "LUIS MIGUEL AFONSO FERNANDES",
+    "Country": "PORTUGAL",
+    "Club": "SL BENFICA",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "GONÇALO MANUEL GANCHINHO GUEDES",
+    "Country": "PORTUGAL",
+    "Club": "VALENCIA CF",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "RAFAEL A. FERREIRA SILVA",
+    "Country": "PORTUGAL",
+    "Club": "SL BENFICA",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "RÚBEN SANTOS GATO ALVES DIAS",
+    "Country": "PORTUGAL",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "FRANCISCO MOTA CASTRO TRINCÃO",
+    "Country": "PORTUGAL",
+    "Club": "FC BARCELONA",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "DIOGO JOSÉ TEIXEIRA DA SILVA",
+    "Country": "PORTUGAL",
+    "Club": "LIVERPOOL",
+    "UN_Code": "PT"
+  },
+  {
+    "Player": "ANDREW ROBERTSON",
+    "Country": "SCOTLAND",
+    "Club": "LIVERPOOL",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "KIERAN TIERNEY",
+    "Country": "SCOTLAND",
+    "Club": "ARSENAL",
+    "UN_Code": "GB"
+  },
+  {
+    "Player": "SADIO MANÉ",
+    "Country": "SENEGAL",
+    "Club": "LIVERPOOL",
+    "UN_Code": "SN"
+  },
+  {
+    "Player": "KALIDOU KOULIBALY",
+    "Country": "SENEGAL",
+    "Club": "NAPOLI",
+    "UN_Code": "SN"
+  },
+  {
+    "Player": "IDRISSA GUEYE",
+    "Country": "SENEGAL",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "SN"
+  },
+  {
+    "Player": "ISMAÏLA SARR",
+    "Country": "SENEGAL",
+    "Club": "WATFORD",
+    "UN_Code": "SN"
+  },
+  {
+    "Player": "SERGEJ MILINKOVIĆ-SAVIĆ",
+    "Country": "SERBIA",
+    "Club": "LAZIO",
+    "UN_Code": "RS"
+  },
+  {
+    "Player": "FILIP KOSTIĆ",
+    "Country": "SERBIA",
+    "Club": "EINTRACHT FRANKFURT",
+    "UN_Code": "RS"
+  },
+  {
+    "Player": "LUKA JOVIĆ",
+    "Country": "SERBIA",
+    "Club": "REAL MADRID",
+    "UN_Code": "RS"
+  },
+  {
+    "Player": "DUŠAN TADIĆ",
+    "Country": "SERBIA",
+    "Club": "AJAX",
+    "UN_Code": "RS"
+  },
+  {
+    "Player": "MILAN ŠKRINIAR",
+    "Country": "SLOVAKIA",
+    "Club": "INTER",
+    "UN_Code": "SK"
+  },
+  {
+    "Player": "JAN OBLAK",
+    "Country": "SLOVENIA",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "SI"
+  },
+  {
+    "Player": "JOSIP ILIČIĆ",
+    "Country": "SLOVENIA",
+    "Club": "ATALANTA",
+    "UN_Code": "SI"
+  },
+  {
+    "Player": "RODRIGO HERNÁNDEZ CASCANTE",
+    "Country": "SPAIN",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "MIKEL OYARZABAL UGARTE",
+    "Country": "SPAIN",
+    "Club": "REAL SOCIEDAD",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "DANIEL CARVAJAL RAMOS",
+    "Country": "SPAIN",
+    "Club": "REAL MADRID",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "MARC CUCURELLA SASETA",
+    "Country": "SPAIN",
+    "Club": "GETAFE CF",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "LUIS ALBERTO ROMERO ALCONCHEL",
+    "Country": "SPAIN",
+    "Club": "LAZIO",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "SERGIO BUSQUETS BURGOS",
+    "Country": "SPAIN",
+    "Club": "FC BARCELONA",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "ALEJANDRO GRIMALDO GARCÍA",
+    "Country": "SPAIN",
+    "Club": "SL BENFICA",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "SAÚL ÑÍGUEZ ESCLÁPEZ",
+    "Country": "SPAIN",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "JORGE RESURRECCIÓN",
+    "Country": "SPAIN",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "THIAGO ALCÂNTARA",
+    "Country": "SPAIN",
+    "Club": "LIVERPOOL",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "JORDI ALBA RAMOS",
+    "Country": "SPAIN",
+    "Club": "FC BARCELONA",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "JOSÉ LUÍS GAYÀ PEÑA",
+    "Country": "SPAIN",
+    "Club": "VALENCIA CF",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "FABIÁN RUIZ PEÑA",
+    "Country": "SPAIN",
+    "Club": "NAPOLI",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "MARCOS LLORENTE MORENO",
+    "Country": "SPAIN",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "FERRAN TORRES GARCÍA",
+    "Country": "SPAIN",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "DAVID DE GEA QUINTANA",
+    "Country": "SPAIN",
+    "Club": "MANCHESTER UNITED",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "DANIEL PAREJO MUÑOZ",
+    "Country": "SPAIN",
+    "Club": "VILLARREAL CF",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "MARCO ASENSIO WILLEMSEN",
+    "Country": "SPAIN",
+    "Club": "REAL MADRID",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "SERGIO REGUILÓN RODRÍGUEZ",
+    "Country": "SPAIN",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "FRANCISCO ROMÁN ALARCÓN SUÁREZ",
+    "Country": "SPAIN",
+    "Club": "REAL MADRID",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "DANIEL OLMO CARVAJAL",
+    "Country": "SPAIN",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "IKER MUNIAIN GOÑI",
+    "Country": "SPAIN",
+    "Club": "ATHLETIC CLUB DE BILBAO",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "JUAN BERNAT VELASCO",
+    "Country": "SPAIN",
+    "Club": "PARIS SAINT-GERMAIN",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "GERARD MORENO BALAGUERÓ",
+    "Country": "SPAIN",
+    "Club": "VILLARREAL CF",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "CRISTIAN PORTUGUES MANZANERA",
+    "Country": "SPAIN",
+    "Club": "REAL SOCIEDAD",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "CÉSAR AZPILICUETA TANCO",
+    "Country": "SPAIN",
+    "Club": "CHELSEA",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "MIKEL MERINO ZAZÓN",
+    "Country": "SPAIN",
+    "Club": "REAL SOCIEDAD",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "IAGO ASPAS JUNCAL",
+    "Country": "SPAIN",
+    "Club": "RC CELTA",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "IÑAKI WILLIAMS ARTHUER",
+    "Country": "SPAIN",
+    "Club": "ATHLETIC CLUB DE BILBAO",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "SERGIO RAMOS GARCÍA",
+    "Country": "SPAIN",
+    "Club": "REAL MADRID",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "SERGIO ROBERTO CARNICER",
+    "Country": "SPAIN",
+    "Club": "FC BARCELONA",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "ÁLVARO BORJA MORATA MARTÍN",
+    "Country": "SPAIN",
+    "Club": "JUVENTUS",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "GERARD PIQUÉ BERNABEU",
+    "Country": "SPAIN",
+    "Club": "FC BARCELONA",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "DAVID JOSUÉ JIMÉNEZ SILVA",
+    "Country": "SPAIN",
+    "Club": "REAL SOCIEDAD",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "DANIEL CEBALLOS FERNÁNDEZ",
+    "Country": "SPAIN",
+    "Club": "ARSENAL",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "YURI BERCHICHE IZETA",
+    "Country": "SPAIN",
+    "Club": "ATHLETIC CLUB DE BILBAO",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "FRANCISCO ALCÁCER GARCÍA",
+    "Country": "SPAIN",
+    "Club": "VILLARREAL CF",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "JONATHAN CASTRO OTTO",
+    "Country": "SPAIN",
+    "Club": "WOLVERHAMPTON WANDERERS",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "RODRIGO MORENO MACHADO",
+    "Country": "SPAIN",
+    "Club": "LEEDS UNITED",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "PAU FRANCISCO TORRES",
+    "Country": "SPAIN",
+    "Club": "VILLARREAL CF",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "SERGIO CANALES MADRAZO",
+    "Country": "SPAIN",
+    "Club": "REAL BETIS",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "JOSÉ GÓMEZ CAMPAÑA",
+    "Country": "SPAIN",
+    "Club": "LEVANTE UD",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "JOSÉ ÁNGEL ESMORIS TASENDE",
+    "Country": "SPAIN",
+    "Club": "RB LEIPZIG",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "HÉCTOR BELLERÍN MORUNO",
+    "Country": "SPAIN",
+    "Club": "ARSENAL",
+    "UN_Code": "ES"
+  },
+  {
+    "Player": "ALEXANDER ISAK",
+    "Country": "SWEDEN",
+    "Club": "REAL SOCIEDAD",
+    "UN_Code": "SE"
+  },
+  {
+    "Player": "DEJAN KULUSEVSKI",
+    "Country": "SWEDEN",
+    "Club": "JUVENTUS",
+    "UN_Code": "SE"
+  },
+  {
+    "Player": "DENIS ZAKARIA",
+    "Country": "SWITZERLAND",
+    "Club": "BORUSSIA MÖNCHENGLADBACH",
+    "UN_Code": "CH"
+  },
+  {
+    "Player": "ROMAN BÜRKI",
+    "Country": "SWITZERLAND",
+    "Club": "BORUSSIA DORTMUND",
+    "UN_Code": "CH"
+  },
+  {
+    "Player": "DAKONAM DJENÉ",
+    "Country": "TOGO",
+    "Club": "GETAFE CF",
+    "UN_Code": "TG"
+  },
+  {
+    "Player": "ÇAĞLAR SÖYÜNCÜ",
+    "Country": "TURKEY",
+    "Club": "LEICESTER CITY",
+    "UN_Code": "TR"
+  },
+  {
+    "Player": "VIKTOR TSYGANKOV",
+    "Country": "UKRAINE",
+    "Club": "DYNAMO KYIV",
+    "UN_Code": "UA"
+  },
+  {
+    "Player": "OLEKSANDR ZINCHENKO",
+    "Country": "UKRAINE",
+    "Club": "MANCHESTER CITY",
+    "UN_Code": "UA"
+  },
+  {
+    "Player": "CHRISTIAN PULISIC",
+    "Country": "UNITED STATES",
+    "Club": "CHELSEA",
+    "UN_Code": "US"
+  },
+  {
+    "Player": "FEDERICO VALVERDE",
+    "Country": "URUGUAY",
+    "Club": "REAL MADRID",
+    "UN_Code": "UY"
+  },
+  {
+    "Player": "JOSÉ MARÍA GIMÉNEZ",
+    "Country": "URUGUAY",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "UY"
+  },
+  {
+    "Player": "LUIS SUÁREZ",
+    "Country": "URUGUAY",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "UY"
+  },
+  {
+    "Player": "LUCAS TORREIRA",
+    "Country": "URUGUAY",
+    "Club": "ATLÉTICO MADRID",
+    "UN_Code": "UY"
+  },
+  {
+    "Player": "MAXIMILIANO GÓMEZ",
+    "Country": "URUGUAY",
+    "Club": "VALENCIA CF",
+    "UN_Code": "UY"
+  },
+  {
+    "Player": "MAURO ARAMBARRI",
+    "Country": "URUGUAY",
+    "Club": "GETAFE CF",
+    "UN_Code": "UY"
+  },
+  {
+    "Player": "JOSEF MARTÍNEZ",
+    "Country": "VENEZUELA",
+    "Club": "ATLANTA UNITED",
+    "UN_Code": "VE"
+  },
+  {
+    "Player": "GARETH BALE",
+    "Country": "WALES",
+    "Club": "TOTTENHAM HOTSPUR",
+    "UN_Code": ""
+  },
+  {
+    "Player": "AARON RAMSEY",
+    "Country": "WALES",
+    "Club": "JUVENTUS",
+    "UN_Code": ""
+  }
+]
