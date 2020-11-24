@@ -1,0 +1,17 @@
+#buffer-row{
+    height: 25px;
+}
+#page-title-index{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+.navbar{
+    height: 110px;
+}
+.subheading-index{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+iframe{
+    padding: 5px;
+}

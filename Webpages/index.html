@@ -4,17 +4,21 @@
 <head>
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Bring in Slick.js stylesheet -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="../Static/JS/index.js"></script>
     <meta charset = 'UTF-8'>
 
-    <link rel="icon" href="../Visualizations/logo.png">
-        <!--https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website-->
-
-    <title>Latitude</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>theFootballers</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
@@ -30,16 +34,16 @@
             <ul class="navbar-nav ml-auto">
                 <!--https://www.geeksforgeeks.org/how-to-align-navbar-items-to-the-right-in-bootstrap-4/-->
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home</a><span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="data.html">Top Ten</a>
+                <a class="nav-link" href="top_ten.html">Top Ten</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Players</a>
+                <a class="nav-link" href="players/html">Players</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="data.html">Countries</a>
+                <a class="nav-link" href="countries.html">Countries</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="data.html">Data</a>
@@ -48,36 +52,49 @@
         </div>
     </nav>
     <div class = 'container-lg' id = 'main-content'>
-        <div class = 'row' id = 'buffer_row'></div>
+        <div class = 'row' id = 'buffer-row'></div>
         <div class = 'row no-gutters'>
             <div class = 'col-md-1'></div>
             <div class = 'col-lg-10'>
                 <div class="jumbotron">
-                    <h1 class="display-4">Latitude vs. X</h1>
-                    <p class="lead">Welcome to Latitude!</p>
+                    <h1 class="display-4" id="page-title-index">The Footballers</h1>
+                    <p class="lead">Welcome to our project!</p>
                     <hr class="my-4">
-                    <p>We are a data visualization team based in Overland Park, Kansas! </p>
-                    <p>For our inaugural project, we analyzed the effect of latitude on various weather phenomena. In order to complete this analysis, we began by utilizing the CitiPy library to create a random list of over 500 cities from around the world. Next, we used the OpenWeatherMap API to obtain weather reports for each of the cities. Finally, we used the MatPlotLib library to observe latitudinal trends related to each city's weather conditions.
+                    <p>We are Benji Hawkins, David Seger, and Rachidi Ndongala! </p>
+                    <p>For this project, we are collecting and visualizing information about the most valuable association football (soccer) players in the world. To begin, we used Python's Beautiful Soup and Splinter libraries to scrape information from the <a href = 'https://sofifa.com/players?col=vl&sort=desc'>SoFIFA.com</a> website. Then, we used PyMongo and a Flask server to upload the scraped data to a Mongo database. The data was subsequently used to create the Javascript, Plotly.js, and Leaflet.js visualizations shown on this website.
                     </p>
-                    <p>Please take a look around our site! It can be navigated by clicking on the visualizations, or by using the navigation bar present at the top of the page.</p> 
-                    <p>If you have any questions or would like to see a more detailed analysis, please see the full WeatherPy project <a href = 'https://github.com/blhawkins/6.pythonAPIchallenge/blob/master/WeatherPy.ipynb'>here</a>.
+                    <p>Please take a look around our site! It can be navigated by using the navigation bar present at the top of the page.</p> 
+                    <p>If you have any questions or would like to see the source code for this project, please consult our GitHub repository! <a href = 'https://github.com/blhawkins/theFootballers'>here</a>.
                     </p>
                     <div class = 'row'>
                         <div class = 'col-md-12'>
-                            <a href = 'max_temperature.html'> <img id = 'main_image' src = '../Visualizations/latitude_vs_temperature_ratios.png'> </a>
+                            <div class = 'sl'>
+                                <div class="slider__item">
+                                    <img src="http://lorempixel.com/400/200" alt="beige coat" class="slider__photo">
+                                    <p class="slider__caption">Beige coat</p>
+                                </div>
+                    
+                                <div class="slider__item">
+                                    <img src="http://lorempixel.com/400/200" alt="grey coat" class="slider__photo">
+                                    <p class="slider__caption">Grey coat</p>
+                                </div>
+                    
+                                <div class="slider__item">
+                                    <img src="http://lorempixel.com/400/200" alt="red coat" class="slider__photo">
+                                    <p class="slider__caption">Red coat</p>
+                                </div>
+                    
+                                <div class="slider__item">
+                                    <img src="http://lorempixel.com/400/200" alt="blue coat" class="slider__photo">
+                                    <p class="slider__caption">Blue coat</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class = 'col-md-1'></div>
             </div>
-        </div>
-        <div class = 'row no-gutters'>
-            <div class = 'col-md-1'></div>
-            <div class = 'col-lg-10'>
-                <div id = 'top-ten-carousel'>Top Ten Carousel (Slick.js)</div>
-            </div>
-            <div class = 'col-md-1'></div>
         </div>
     </div>
 </body>
