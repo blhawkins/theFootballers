@@ -31,6 +31,7 @@ function nameFilter(dt) {
     let inputSearchNameValue = inputSearchName.property("value");
     if (inputSearchNameValue)
         return dt.name.includes(inputSearchNameValue);
+        //https://stackoverflow.com/questions/47785624/filter-and-includes-to-filter-array-with-array
     return true;
 }
 
