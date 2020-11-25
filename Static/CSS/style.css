@@ -36,4 +36,13 @@ select{
     font-weight:bold 
 }
 
+.countries-body{
+padding: 0;
+margin: 0;
+}
 
+#countries-map,
+body,
+html {
+height: 100%;
+}
