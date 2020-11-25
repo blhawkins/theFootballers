@@ -35,20 +35,23 @@ for (var i = 0; i < data.features.length; i++) {
 
   // Building player information.
   var playerHtml = '';
+  var playerBreak = ""
   var countryCode = data.features[i].id;
   console.log(data.features[i].id);
   for (var x = 0; x < playerData.length; x++) {
     if (countryCode === playerData[x].UN_Code) {
-      playerHtml = playerHtml + "<br>" + playerData[x].Player;
+      playerHtml = playerHtml + playerBreak + playerData[x].Player + "&nbsp-&nbsp" + playerData[x].Club;
+      playerBreak = "<br>"
     }
   }
 
+
   // Dropping marker and creating tooltip.
   if (playerHtml > '') {
-    L.marker(data.features[i].geometry.coordinates.reverse())
-        .bindPopup("<h1>" + data.features[i].properties.city + ", " + 
-            data.features[i].properties.country + "</h1>" + playerHtml)
+    L.marker(data.features[i].geometry.coordinates.reverse()) 
+        .bindPopup("<h4>" + data.features[i].properties.city + ", " + 
+            data.features[i].properties.country + "</h4>" + playerHtml)
         .addTo(myMap);
-  }
+ 
 }
-
+}
