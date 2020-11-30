@@ -87,7 +87,7 @@ Components of the data.js file include:
 
 # Screen Captures
 
-### [Index Page](//)
+### [Index Page](https://blhawkins.github.io/theFootballers/Webpages/index.html)
 ![alt text](// 'Screenshot of Index Page')
 
 ### [Top Ten Page](//)
