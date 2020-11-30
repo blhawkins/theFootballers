@@ -88,16 +88,18 @@ Components of the data.js file include:
 # Screen Captures
 
 ### [Index Page](https://blhawkins.github.io/theFootballers/Webpages/index.html)
-![alt text](// 'Screenshot of Index Page')
+![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/index_screenshot_1.png 'Screenshot of Index Page')
 
 ### [Top Ten Page](https://blhawkins.github.io/theFootballers/Webpages/top_ten.html)
 ![alt text](// 'Screenshot of Top Ten Page')
 
 ### [Players Page](https://blhawkins.github.io/theFootballers/Webpages/players.html)
-![alt text](// 'Screenshot of Players Page')
+![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/players_screenshot_1.png 'Screenshot 1 of Players Page (Top of Page)')
+![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/players_screenshot_2.png 'Screenshot 2 of Players Page (Bottom of Page)')
 
 ### [Countries Page](https://blhawkins.github.io/theFootballers/Webpages/countries.html)
-![alt text](// 'Screenshot of Countries Page')
+![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/countries_screenshot_1.png 'Screenshot of Countries Page')
 
 ### [Data Page](https://blhawkins.github.io/theFootballers/Webpages/data.html)
-![alt text](/// 'Screenshot of Data Page')
+![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/data_screenshot_1.png 'Screenshot 1 of Data Page (Top of Page)')
+![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/data_screenshot_2.png 'Screenshot 2 of Data Page (Bottom of Page)')
