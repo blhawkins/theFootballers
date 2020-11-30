@@ -128,4 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-Static/CSS/JS/config.js
+Static/JS/config.js
