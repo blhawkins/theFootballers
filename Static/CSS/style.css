@@ -1,0 +1,48 @@
+#buffer-row{
+    height: 25px;
+}
+#page-title-index{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+.navbar{
+    height: 110px;
+}
+.player-name{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+.player-image{
+    height:300px
+}
+#page-title-data{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+.subheading-data{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+select{
+    width: 175px;
+    text-overflow: ellipsis;
+}
+#page-title-player-dashboard{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+.subheading-player-dashboard{
+    color:#0aaf8e;
+    font-weight:bold 
+}
+
+.countries-body{
+padding: 0;
+margin: 0;
+}
+
+#countries-map,
+body,
+html {
+height: 100%;
+}
