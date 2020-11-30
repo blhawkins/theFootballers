@@ -34,7 +34,7 @@ University of Kansas Data Analytics Bootcamp Project 2
 These files utilize Splinter and Beautiful Soup in order to scrape information from the [SoFIFA](https://sofifa.com/) soccer database. More specifically, information about the top 300 most valuable players, and the top 300 most highly rated club teams is stored. The Jupyter file shows the resulting dataset, and the Python file is used as a scraping function that is incorporated into the Flask application and PyMongo connection.
 
 ### [App.py](https://github.com/blhawkins/theFootballers/blob/main/Data%20Scraping/app.py)
-Data in [scraped_data.json](https://github.com/blhawkins/theFootballers/blob/main/Data/scraped_data.json)
+This file uses Flask, PyMongo, and the JSON dumps function to call the webscraping function scrape_sofifa.py, import the scraped data into a local Mongo database, and return the data in the Mongo database as a JSON object. The JSONified data can be seen in the [scraped_data.json](https://github.com/blhawkins/theFootballers/blob/main/Data/scraped_data.json) file.
 ### [Index.js](https://github.com/blhawkins/theFootballers/blob/main/Static/JS/index.js)
 Components of the index.js file include:
 1. Code required for the operation of the Slick.js visualization on the website's homepage.
@@ -42,48 +42,34 @@ Components of the index.js file include:
 
 ### [Top_ten.js](//)
 Components of the top_ten.js file include:
-1. Creation of a map object with a selection of three base map styles: a street map, a dark map, and a satellite map.
-2. Use of D3.json to perform an API call for earthquakes with magnitudes greater than 2.5 that occured in the previous 30 days.
-3. Use of Leaflet.js functionality to create a circle marker and cooresponding tooltip for each earthquake present in the dataset.
-    <ul>
-    <li>The radius of each circle marker is proportional to the magnitude of the cooresponding earthquake.</li>
-    <li>The color of each circle marker is representative of the depth at which the cooresponding earthquake originated. A legend was created to show the significance of the colors.</li>
-    </ul>
-4. Use of D3.json to import in a GeoJSON file containing the shape of the Earth's tectonic plates.
-5. Use of Leaflet.js functionality to create a layer control panel whereby users can select one of the three base maps as well as toggle both the earthquake marker layer and the tectonic plate layer.
-6. Connection with the [top_ten.html](//) file.
+1. Connection with the [top_ten.html](//) file.
 ### [Players.js](https://github.com/blhawkins/theFootballers/blob/main/Static/JS/players.js)
 Components of the players.js file include:
-1. Creation of a function that, upon start-up, populates the dropdown menu with all of the available datasets (Patient IDs). This function also uses a random number generator to initialize the webpage's graphics using data cooresponding to a random patient.
+1. Creation of a function that, upon start-up, populates the dropdown menu with all of the available datasets (Player Names). This function also initializes the webpage's graphics with data cooresponding to the first player in the dataset.
 2. Creation of a function that produces the following graphics:
     <ul>
-    <li>A bar chart that displays the names and relative frequencies of the top ten OTUs (operational taxonomic units) found on the selected patient's belly button.</li>
-    <li>A bubble chart that displays the diversity and the relative frequencies of the OTUs found on the selected patient.</li>
-    <li>A table that displays pertinent demographic information about the selected patient.</li>
-    <li>A gauge chart that visualizes the frequency with which the selected patient washes their belly button.</li>
+    <li>A table that displays pertinent demographic information about the selected player.</li>
+    <li>A gauge chart that visualizes the player's Overall Rating from the FIFA 21 video game.</li>
+    <li>A gauge chart that visualizes the player's Potential Rating from the FIFA 21 video game.</li>
+    <li>A gauge chart that visualizes the player's financial value.</li>
+    <li>A gauge chart that visualizes the player's weekly wage.</li>
     </ul>
 3. Creation of a function that allows the visualizations to be updated according to the dataset selected through the dropdown menu.
 4. Connection with the [players.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/players.html) file.
 ### [Countries.js](https://github.com/blhawkins/theFootballers/blob/main/Static/JS/countries.js)
 Components of the countries.js file include:
-1. Creation of a map object with a selection of three base map styles: a street map, a dark map, and a satellite map.
-2. Use of D3.json to perform an API call for earthquakes with magnitudes greater than 2.5 that occured in the previous 30 days.
-3. Use of Leaflet.js functionality to create a circle marker and cooresponding tooltip for each earthquake present in the dataset.
-    <ul>
-    <li>The radius of each circle marker is proportional to the magnitude of the cooresponding earthquake.</li>
-    <li>The color of each circle marker is representative of the depth at which the cooresponding earthquake originated. A legend was created to show the significance of the colors.</li>
-    </ul>
-4. Use of D3.json to import in a GeoJSON file containing the shape of the Earth's tectonic plates.
-5. Use of Leaflet.js functionality to create a layer control panel whereby users can select one of the three base maps as well as toggle both the earthquake marker layer and the tectonic plate layer.
-6. Connection with the [countries.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/countries.html) file.
+1. Creation and initialization of a MapBox object using Leaflet.js.
+2. Use of Javascript operations to import and read a GeoJson file containing the location of the capital city in each country.
+3. Use of Leaflet.js functionality to create a marker located on the capital city of each country that contains a player in the players data dataset (300 Most Valuable Players in the World).
+4. Continued use of Leaflet.js to create and attach a pop-up object to each country marker containing the name and club team of each player from the country present in the dataset.
+5. Connection with the [countries.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/countries.html) file.
 ### [Data.js](https://github.com/blhawkins/theFootballers/blob/main/Static/JS/data.js)
 Components of the data.js file include:
-1. Creation of a Javascript function that embedds a list of dictionaries into an HTML table tag selected by D3.js.
-2. Creation of a Javascript function that tests whether a date passed into the filter form is present in the dataset.
-3. Creation of a Javascript function that filters the original UFO sighting data by the date constraint inputted by the user and returns the relevant UFO sighting data.
-4. Creation of a Javascript function that resets the data displayed in the table to display the unfiltered dataset.
-5. Use of D3.js to trigger data filtering and table resetting upon user interactions with the cooresponding buttons and forms.
-6. Connection with the [data.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/data.html) file.
+1. Creation of a function that uses D3.js to select an HTML table tag and append a row and insert the values cooresponding to a data entry.
+2. Creation of a function that imports the dataset containing the player data and calls the previous function for each entry (player) in the dataset.
+3. Creation of six seperate functions that filter the original data table by the following constraints: name, age, overall rating, potential rating and country.
+4. Use of D3.js to trigger data filtering upon user interactions with the cooresponding button.
+5. Connection with the [data.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/data.html) file.
 
 # Screen Captures
 

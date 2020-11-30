@@ -20,7 +20,7 @@ initializeTable()
 
 //Function that appends a row for each data entry
 function tablePopulationFun(player) {
-    var tbody = d3.select('tbody') //NOTE the data.html file must have this
+    var tbody = d3.select('tbody') 
     var row = tbody.append('tr')
     Object.entries(player).forEach(function([key, value]) {
         var cell = row.append('td')
@@ -31,7 +31,7 @@ function tablePopulationFun(player) {
 }
 
 function nameFilter(dt) {
-    let inputSearchName = d3.select("#name"); //MAKE SURE YOU HAVE THIS
+    let inputSearchName = d3.select("#name"); 
     let inputSearchNameValue = inputSearchName.property("value");
     if (inputSearchNameValue)
         return dt.name.toLowerCase().includes(inputSearchNameValue.toLowerCase());
