@@ -100,4 +100,4 @@ Components of the data.js file include:
 ![alt text](// 'Screenshot of Countries Page')
 
 ### [Data Page](https://blhawkins.github.io/theFootballers/Webpages/data.html)
-![alt text](// 'Screenshot of Data Page')
+![alt text](/// 'Screenshot of Data Page')
