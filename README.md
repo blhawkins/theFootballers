@@ -39,10 +39,9 @@ This file uses Flask, PyMongo, and the JSON dumps function to call the webscrapi
 Components of the index.js file include:
 1. Code required for the operation of the Slick.js visualization on the website's homepage.
 2. Connection with the [index.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/index.html) file.
-
-### [Top_ten.js](//)
+<!-- ### [Top_ten.js](//)
 Components of the top_ten.js file include:
-1. Connection with the [top_ten.html](//) file.
+1. Connection with the [top_ten.html](//) file. -->
 ### [Players.js](https://github.com/blhawkins/theFootballers/blob/main/Static/JS/players.js)
 Components of the players.js file include:
 1. Creation of a function that, upon start-up, populates the dropdown menu with all of the available datasets (Player Names). This function also initializes the webpage's graphics with data cooresponding to the first player in the dataset.
@@ -76,8 +75,8 @@ Components of the data.js file include:
 ### [Index Page](https://blhawkins.github.io/theFootballers/Webpages/index.html)
 ![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/index_screenshot_1.png 'Screenshot of Index Page')
 
-### [Top Ten Page](https://blhawkins.github.io/theFootballers/Webpages/top_ten.html)
-![alt text](// 'Screenshot of Top Ten Page')
+<!-- ### [Top Ten Page](https://blhawkins.github.io/theFootballers/Webpages/top_ten.html)
+![alt text](// 'Screenshot of Top Ten Page') -->
 
 ### [Players Page](https://blhawkins.github.io/theFootballers/Webpages/players.html)
 ![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/players_screenshot_1.png 'Screenshot 1 of Players Page (Top of Page)')
