@@ -16,7 +16,7 @@ var initialLayer = L.tileLayer(
   maxZoom: 18,
   zoomOffset: -1,
   id: "mapbox/streets-v11",
-  accessToken: API_KEY
+  accessToken: "pk.eyJ1IjoiYmxoYXdraW5zIiwiYSI6ImNraTUzejRlZTJjeW8yeG5tcXU4N3VoN3QifQ.C4HGhvHqNcz8tTn0NnrZAw"
 }
 )
 
