@@ -1,6 +1,6 @@
 # theFootballers
 ### Analysis of the Most Valuable Football Players in the World ⚽️🌍
-University of Kansas Data Analytics Bootcamp Project 2
+
 
 # Main Contents:
     fifa_scraping.ipynb
