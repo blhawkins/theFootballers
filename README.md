@@ -8,7 +8,6 @@
     app.py
     scraped_data.json
     index.js/.html
-    top_ten.js/.html
     players.js/.html
     countries.js/.html
     data.js/.html
@@ -39,13 +38,6 @@ This file uses Flask, PyMongo, and the JSON dumps function to call the webscrapi
 Components of the index.js file include:
 1. Code required for the operation of the Slick.js visualization on the website's homepage.
 2. Connection with the [index.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/index.html) file.
-
-### [Top_ten.js](https://github.com/blhawkins/theFootballers/blob/main/Static/JS/top_ten.js)
-Components of the top_ten.js file include:
-1. Creation of an object to hold a slice of the top ten most valueable players from the dataset.
-2. Creation of a function that filters the sliced object according to a user-inputted name value.
-3. Creation of a function that appends table entries according to the user-inputted filter value.
-4. Connection with the [top_ten.html](https://github.com/blhawkins/theFootballers/blob/main/Webpages/top_ten.html) file.
 ### [Players.js](https://github.com/blhawkins/theFootballers/blob/main/Static/JS/players.js)
 Components of the players.js file include:
 1. Creation of a function that, upon start-up, populates the dropdown menu with all of the available datasets (Player Names). This function also initializes the webpage's graphics with data cooresponding to the first player in the dataset.
@@ -78,9 +70,6 @@ Components of the data.js file include:
 
 ### [Index Page](https://blhawkins.github.io/theFootballers/Webpages/index.html)
 ![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/index_screenshot_1.png 'Screenshot of Index Page')
-
-### [Top Ten Page](https://blhawkins.github.io/theFootballers/Webpages/top_ten.html)
-![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/top_ten_screenshot_1.png 'Screenshot of Top Ten Page')
 
 ### [Players Page](https://blhawkins.github.io/theFootballers/Webpages/players.html)
 ![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/players_screenshot_1.png 'Screenshot 1 of Players Page (Top of Page)')
