@@ -75,7 +75,7 @@ Components of the data.js file include:
 ![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/players_screenshot_1.png 'Screenshot 1 of Players Page (Top of Page)')
 ![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/players_screenshot_2.png 'Screenshot 2 of Players Page (Bottom of Page)')
 
-### [Countries Page](https://blhawkins.github.io/theFootballers/Webpages/countries.html)
+### [Countries Page](https://blhawkins.github.io/theFootballers/Webpages/countries.html) (Note: Map not visible on live webpage due to API key challenges)
 ![alt text](https://github.com/blhawkins/theFootballers/blob/main/Static/Images/Screenshots/countries_screenshot_1.png 'Screenshot of Countries Page')
 
 ### [Data Page](https://blhawkins.github.io/theFootballers/Webpages/data.html)
